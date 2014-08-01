@@ -23,7 +23,8 @@ SUBDIRS = \
     qxmppstunmessage \
     qxmpputils \
     qxmppvcardiq \
-    qxmppversioniq
+    qxmppversioniq \
+    qxmpplastactivityiq
 
 !isEmpty(QXMPP_AUTOTEST_INTERNAL) {
     SUBDIRS += qxmppcodec
